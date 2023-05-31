@@ -1,0 +1,310 @@
+.passenger
+{
+    
+    .passenger_block
+    {
+        background: #FFFFFF;
+        box-shadow: 0px -2px 4px rgba(1, 100, 255, 0.05), 0px 2px 4px rgba(1, 100, 255, 0.05);
+        border-radius: 15px;
+        padding: 30px 117px 22px 117px;
+        .border_full
+        {
+            width: 805px;
+            border: 1px solid #EBEBF0;
+            margin: 30px 0;
+        }
+        .passenger_left
+        {
+            .passenger_left_title
+            {
+                margin-bottom: 45px;
+                a
+                {
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 27px;
+                    text-align: center;
+                    color: #012F56;
+                    img
+                    {
+                        margin-right: 13px;
+                    }
+                }
+            }
+            .passenger_left_name
+            {
+                font-weight: 500;
+                font-size: 26px;
+                line-height: 32px;
+                color: #012F56;
+                margin-bottom: 22px;
+            }
+                .surname
+                {
+                    margin-bottom: 10px;
+                    label
+                    {
+                        line-height: 20px;
+                        color: #012F56;
+                        span
+                        {
+                            color: red;
+                        }
+                    }
+                    input
+                    {
+                        width: 355px;
+                        height: 40px;
+                        background: #FFFFFF;
+                        border: 0.6px solid #D5D5D5;
+                        border-radius: 5px;
+                        margin-top: 5px;
+                        color: #012F56;
+                    }
+                }
+                .name
+                {
+                    margin-bottom: 10px;
+                    label
+                    {
+                        line-height: 20px;
+                        color: #012F56;
+                        span
+                        {
+                            color: red;
+                        }
+                    }
+                    input
+                    {
+                        width: 355px;
+                        height: 40px;
+                        background: #FFFFFF;
+                        border: 0.6px solid #D5D5D5;
+                        border-radius: 5px;
+                        margin-top: 5px;
+                        color: #012F56;
+                    }
+                }
+                .birthday
+                {
+                    margin-bottom: 10px;
+                    label
+                    {
+                        line-height: 20px;
+                        color: #012F56;
+                        span
+                        {
+                            color: red;
+                        }
+                    }
+                    input
+                    {
+                        width: 355px;
+                        height: 40px;
+                        background: #FFFFFF;
+                        border: 0.6px solid #D5D5D5;
+                        border-radius: 5px;
+                        margin-top: 5px;
+                        color: #012F56;
+                        &::placeholder
+                        {
+                            color: #012F56;
+                        }
+                        
+                    }
+                    input[type="date"]::-webkit-calendar-picker-indicator {
+                        color: rgba(0, 0, 0, 0);
+                        opacity: 1;
+                        display: block;
+                        background: url("../images/date.svg") no-repeat;
+                        width: 20px;
+                        height: 20px;
+                        border-width: thin;
+                    }
+                }
+                .phone
+                {
+                    margin-bottom: 10px;
+                    label
+                    {
+                        line-height: 20px;
+                        color: #012F56;
+                        span
+                        {
+                            color: red;
+                        }
+                    }
+                    input
+                    {
+                        width: 355px;
+                        height: 40px;
+                        background: #FFFFFF;
+                        border: 0.6px solid #D5D5D5;
+                        border-radius: 5px;
+                        margin-top: 5px;
+                        color: #012F56;
+                        &::placeholder
+                        {
+                            color: #012F56;
+                        }
+                    }
+                }
+            
+
+        }
+        .passenger_right
+        {
+            .passenger_quantity
+            {
+                display: flex;
+                //align-items: center;
+                
+                .passenger_quantity_title
+                {
+                    line-height: 20px;
+                    text-align: center;
+                    color: #012F56;
+                    margin-right: 50px;
+                    margin-top: 10px;
+                }
+                .passenger_add
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    .previous
+                    {
+                        margin-right: 23px;
+                    }
+                    .passenger_number
+                    {
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 37px;
+                        text-align: center;
+                        color: #012F56;
+                    }
+                    .next
+                    {
+                        margin-left: 23px;
+                    }
+                }
+                
+            }
+            .passenger_right_passport_number,
+            .passenger_right_passport_date,
+            .passenger_right_passport_nationality,
+            .passenger_right_passport_email,
+            .passenger_right_passport_age
+            {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    label
+                    {
+                        line-height: 20px;
+                        color: #012F56;
+                        span
+                        {
+                            color: red;
+                        }
+                    }
+                    input
+                    {
+                        width: 355px;
+                        height: 40px;
+                        color: #012F56;
+                        &::placeholder
+                        {
+                            color: #012F56;
+                        }
+                    }
+            }
+            .passenger_right_passport_nationality
+            {
+                select
+                {
+                    width: 355px;
+                    height: 40px;
+                    color: #012F56;
+                }
+            }
+
+        }
+        .passenger_btn_text
+        {
+            
+            .passenger_btn
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                a
+                {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    padding: 10px 105px;
+                    background: #1A94FF;
+                    border-radius: 6px;
+                    transition: .3s all ease;
+                    border: 1px solid transparent;
+                    &:hover
+                    {
+                        background: #FFFFFF;
+                        color: #1A94FF;
+                        border: 1px solid #1A94FF;
+                    }
+                }
+            }
+            .passenger_reg
+            {
+                
+                text-align: center;
+                .form_rule_checkbox
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    input
+                    {
+                        display: none;
+                        
+                        &:checked ~ .checkmark
+                        {
+                            background: #fff;
+                            border-color: #2266dc;
+                            transition: .9s all ease;
+                            &::after
+                            {
+                                content: url("../images/checkbox.svg");
+                                color: #fff;
+                                position: absolute;
+                                top: -3px;
+                                left: 2px;
+                            }
+                        }
+                    }
+                    .checkmark 
+                    {
+                        width: 20px;
+                        height: 20px;
+                        display: block;
+                        border: 1px solid #1A94FF;
+                        border-radius: 2px;
+                        margin-right: 10px;
+                        box-sizing: border-box;
+                        position: relative;
+
+                    }
+                }
+                
+            }
+        }
+    }
+}

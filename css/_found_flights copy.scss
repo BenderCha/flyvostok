@@ -1,0 +1,514 @@
+.found
+{
+    margin-top: 22px;
+    form
+    {
+        .search_founds
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .search_founds_whence
+            {
+                position: relative;
+                &::before
+                {
+                    content: url("../images/where_up.svg");
+                    position: absolute;
+                    top: 8px;
+                    left: 18px;
+                    display: block;
+                }
+                input
+                {
+                    width: 175px;
+                    height: 36px;
+                    padding: 8px 60px 8px 56px;
+                    background: #FFFFFF;
+                    border: 0.6px solid #D5D5D5;
+                    border-radius: 5px;
+                    
+                    &::placeholder
+                    {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #012F56;
+                        
+                    }
+                }
+            }
+            .search_founds_where
+            {
+                margin-left: 10px;
+                position: relative;
+                &::before
+                {
+                    content: url("../images/where_down.svg");
+                    position: absolute;
+                    top: 8px;
+                    left: 18px;
+                    display: block;
+                }
+                input
+                {
+                    width: 175px;
+                    height: 36px;
+                    padding: 7px 0px 9px 56px;
+                    background: #FFFFFF;
+                    border: 0.6px solid #D5D5D5;
+                    border-radius: 5px;
+                    color: #012F56;
+                    &::placeholder
+                    {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #012F56;
+                        
+                    }
+                }
+            }
+            .search_founds_date
+            {
+                margin-left: 10px;
+                position: relative;
+                &::before
+                {
+                    content: url("../images/date.svg");
+                    position: absolute;
+                    top: 7px;
+                    left: 18px;
+                    display: block;
+                }
+                input
+                {
+                    width: 175px;
+                    height: 36px;
+                    background: #FFFFFF;
+                    border: 0.6px solid #D5D5D5;
+                    border-radius: 5px;
+                    padding: 8px 20px 8px 50px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 15px;
+                    color: #012F56;
+                    &::placeholder
+                    {
+                        color: #012F56;
+                    }
+                }
+                
+            }
+            .search_founds_back
+            {
+                margin-left: 10px;
+                position: relative;
+                &::before
+                {
+                    content: url("../images/date.svg");
+                    position: absolute;
+                    top: 7px;
+                    left: 18px;
+                    display: block;
+                }
+                input
+                {
+                    width: 175px;
+                    height: 36px;
+                    background: #FFFFFF;
+                    border: 0.6px solid #D5D5D5;
+                    border-radius: 5px;
+                    padding: 8px 46px 8px 53px;
+                    &::placeholder
+                    {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #012F56;
+                    }
+                }
+                
+            }
+            .search_founds_money
+            {
+                margin-left: 10px;
+                position: relative;
+                &::before
+                {
+                    content: url("../images/coin.svg");
+                    position: absolute;
+                    top: 7px;
+                    left: 18px;
+                    display: block;
+                }
+                input
+                {
+                    width: 134px;
+                    height: 36px;
+                    background: #FFFFFF;
+                    border: 0.6px solid #D5D5D5;
+                    border-radius: 5px;
+                    padding: 8px 16px 8px 54px;
+                    color: #012F56;
+                    &::placeholder
+                    {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #012F56;
+                    }
+                }
+                
+            }
+            .btn_found_edit
+            {
+                margin-left: 14px;
+                
+                background: #1A94FF;
+                border-radius: 10px;
+                padding: 7px 66px 7px 66px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                color: #FFFFFF;
+                transition: .3s all ease;
+                &:hover
+                {
+                    background: #FFFFFF;
+                    color: #1A94FF;
+                    border-color: #1A94FF;
+                }
+            }
+        }
+    }
+    .found_list
+    {
+        margin-top: 76px;
+        .found_list_title
+        {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #012F56;
+            margin-bottom: 30px;
+        }
+        .found_list_block
+        {
+            background: #FFFFFF;
+            box-shadow: 0px -2px 4px rgba(1, 100, 255, 0.05), 0px 2px 4px rgba(1, 100, 255, 0.05);
+            border-radius: 15px;
+            padding: 9px 12px 13px 52px;
+            
+            .found_list_block_title
+            {
+                
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                color: #012F56;
+                display: flex;
+                //justify-content: center;
+                align-items: center;
+                margin-right: 100px;
+                &::before
+                {
+                    content: url("../images/found_list_fly.svg");
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    
+
+                }
+            }
+            .found_list_block_left
+            {
+                display: flex;
+                margin-right: 150px;
+                .found_list_block_left_start
+                {
+                    margin-right: 48px;
+                    .found_list_block_left_city_start
+                    {
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #012F56;
+                        margin-bottom: 4px;
+                        span
+                        {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            text-align: center;
+                            color: #7B7B7B;
+                        }
+                    }
+                    .found_list_block_left_date_start
+                    {
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #012F56;
+                    }
+                    
+                }
+                .found_list_block_left_fly
+                {
+                    margin-top: 15px;
+                    text-align: center;
+                    align-items: center;
+                    margin-right: 49px;
+                    .found_list_block_left_flytime
+                    {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-align: center;
+                        color: #7B7B7B;
+                        margin-bottom: 6px;
+                        position: relative;
+                        &::before
+                        {
+                            content: url("../images/arrow_found_list_block_left_flytime.svg");
+                            position: absolute;
+                            top: 12px;
+                            left: -5px;
+                        }
+                    }
+                    .found_list_block_left_flystraight
+                    {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-align: center;
+                        color: #7B7B7B;
+                        
+                    }
+                }
+                .found_list_block_left_end
+                {
+                    .found_list_block_left_date_end
+                    {
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #012F56;
+                        margin-bottom: 4px;
+                        span
+                        {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            text-align: center;
+                            color: #7B7B7B;
+                        }
+                    }
+                    .found_list_block_left_city_end
+                    {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #012F56;
+                    }
+                }
+            }
+            .found_list_block_right
+            {
+                margin-top: 20px;
+                margin-right: 52px;
+                .found_list_block_right_add
+                {
+                    .found_list_block_right_add_baggage,
+                    .found_list_block_right_add_hand_luggage,
+                    .found_list_block_right_add_nutrition
+                    {
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #012F56;
+                        margin-top: 12px;
+                        img
+                        {
+                            margin-right: 15px;
+                        }
+                    }
+
+                }
+                .found_list_block_right_money_btn
+                {
+                    margin-top: 30px;
+                    
+                    .found_list_block_right_money
+                    {
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 37px;
+                        color: #1A94FF;
+                        text-align: right;
+                        margin-bottom: 17px;
+                    }
+                    .found_list_block_right_ticket_btn
+                    {
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 15px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        background: #1A94FF;
+                        border-radius: 6px;
+                        padding: 5px 33px;
+
+                    }
+                }
+            }
+        }
+        .found_list_block_big
+        {
+            margin-top: 30px;
+            background: #FFFFFF;
+            box-shadow: 0px -2px 4px rgba(1, 100, 255, 0.05), 0px 2px 4px rgba(1, 100, 255, 0.05);
+            border-radius: 15px;
+            padding: 9px 52px 20px 52px;
+            
+            .found_list_block_big_title
+            {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                color: #012F56;
+                display: flex;
+                //justify-content: center;
+                align-items: center;
+                margin-right: 100px;
+                &::before
+                {
+                    content: url("../images/found_list_fly.svg");
+                    position: relative;
+                    top: 0;
+                    left: 0;
+
+                }
+            }
+            .found_list_block_big_left
+            {
+                display: flex;
+                margin-right: 150px;
+                .found_list_block_big_left_start
+                {
+                    margin-right: 48px;
+                    .found_list_block_big_left_city_start
+                    {
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #012F56;
+                        margin-bottom: 4px;
+                        span
+                        {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            text-align: center;
+                            color: #7B7B7B;
+                        }
+                    }
+                    .found_list_block_big_left_date_start
+                    {
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #012F56;
+                    }
+                    
+                }
+                .found_list_block_big_left_fly
+                {
+                    margin-top: 15px;
+                    text-align: center;
+                    align-items: center;
+                    margin-right: 49px;
+                    .found_list_block_big_left_flytime
+                    {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-align: center;
+                        color: #7B7B7B;
+                        margin-bottom: 6px;
+                        position: relative;
+                        &::before
+                        {
+                            content: url("../images/arrow_found_list_block_left_flytime.svg");
+                            position: absolute;
+                            top: 12px;
+                            left: -5px;
+                        }
+                    }
+                    .found_list_block_big_left_flystraight
+                    {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 17px;
+                        text-align: center;
+                        color: #7B7B7B;
+                        
+                    }
+                }
+                .found_list_block_big_left_end
+                {
+                    .found_list_block_big_left_date_end
+                    {
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #012F56;
+                        margin-bottom: 4px;
+                        span
+                        {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 17px;
+                            text-align: center;
+                            color: #7B7B7B;
+                        }
+                    }
+                    .found_list_block_big_left_city_end
+                    {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #012F56;
+                    }
+                }
+                .found_list_block_big_right
+                {
+                    margin-left: 150px;
+                    .found_list_block_big_right_add
+                    {
+                        .found_list_block_big_right_add_baggage
+                        {
+                            margin-bottom: 12px;
+                        }
+                        .found_list_block_big_right_add_hand_luggage
+                        {
+                            margin-bottom: 12px;
+                        }
+                        
+                    }
+                }
+            }
+            .found_list_block_big_border
+            {
+                margin-top: 20px;
+                border: 1px solid #EBEBF0;
+            }
+            .found_list_block_big_border_height
+            {
+                
+                border-right: 1px solid #EBEBF0;
+                // transform: rotate(-90deg);
+            }
+        }
+        
+    }
+}

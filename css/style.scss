@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+ul,ol
+{
+    list-style: none;
+}
+body
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+header
+{
+    background: url("../images/header_banner.svg") top no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 134px;
+    width: 100%;
+    
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 88px;
+}
+.logo
+{
+    padding: 13px 0;
+}
+.left_bar
+{
+    
+    .contact_all
+    {
+        display: flex;
+        .contact
+        {
+            a
+            {
+                font-weight: 600;
+                font-size: 19px;
+                line-height: 23px;
+                text-align: right;
+                color: #FFFFFF;
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+                margin-right: 30px;
+                transition: .3s all ease;
+                &:hover
+                {
+                    color: #dfdede;
+                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+                }
+            }
+        }
+        
+    }
+    .login
+    {
+        text-align: right;
+        margin-top: 22px;
+        a
+        {
+            line-height: 20px;
+            color: #012F56;
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid #FFFFFF;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(7px);
+            border-radius: 10px;
+            padding: 6px 28px;
+            transition: .3s all ease;
+            &:hover{
+                color: #fff;
+                background: rgba(255, 255, 255, 0.01);
+            }
+        }
+        
+    }
+}
+
+
+@import "_main.scss";
+@import "_found_flights.scss";
+@import "_passenger.scss";
+@import "_successful.scss";
